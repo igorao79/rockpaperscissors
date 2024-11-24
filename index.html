@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="page">
+        <div class="menu">
+            <h1>Камень, Ножницы, Бумага</h1>
+            <h3>Сделайте выбор</h3>
+            <div class="buttonsblock">
+                <button id="rock">✊</button>
+                <button id="paper">✋</button>
+                <button id="scissors">✌</button>
+            </div>
+            <div class="result">
+                <div>
+                    <h3 class="user">Счет Пользователя:</h3>
+                    <h4 class="user-result">0</h4>
+                </div>
+                <div>
+                    <h3 class="computer">Счет Компьютера:</h3>
+                    <h4 class="computer-result">0</h4>
+                </div>
+                <div id="result">
+                    <p>Ваш выбор: <strong>&nbsp;</strong></p>
+                    <p>Выбор компьютера: <strong>&nbsp;</strong></p>
+                    <p><strong>&nbsp;</strong></p>
+                </div>                
+            </div>
+        </div>
+        <div class="submenu">
+            <h2>Условия игры!</h2>
+            <p>1. Раунд идёт 3 хода.</p>
+            <p>2. После завершения раунда происходит трёхсекундный сброс.</p>
+            <p>3. Кнопка, которую выбрал компьютер, будет выделена желтым цветом. Если вы выбрали одинаковую кнопку, то у вас ничья!</p>
+        </div>
+    </div>
+<script src="./main.js"></script>
+</body>
+</html>
